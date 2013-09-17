@@ -398,6 +398,9 @@ abstract class BaseModel implements StorableObjectInterface
         $final_resource_location = '';
         if ($mappings['relates']['relative']) {
             $final_resource_location .= $this->_getResourceLocation() . '/';
+        } elseif ($mappings['relates']['foreign_key']) {
+            $fkey = $mappings['relates']['foreign_key'];
+            $params[$fkey] = $this->{$fkey};
         } else {
             $fkey = $mappings['relates']['related_by'];
             $params[$fkey] = $this->getDataArrayIdentifierValue();
