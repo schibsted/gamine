@@ -2,6 +2,10 @@
 
 namespace RedpillLinpro\GamineBundle\Annotations;
 
+/**
+ *
+ * @Annotation
+ */
 class Extract extends \Doctrine\Common\Annotations\Annotation
 {
     public $columns;
