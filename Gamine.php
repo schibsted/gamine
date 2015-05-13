@@ -53,8 +53,6 @@ class Gamine
         if($return_array === null) {
             $reflection_class = new \ReflectionClass($class);
             $reader = new \Doctrine\Common\Annotations\AnnotationReader(new \Doctrine\Common\Cache\ArrayCache());
-            $reader->setEnableParsePhpImports(true);
-            $reader->setDefaultAnnotationNamespace('RedpillLinpro\\GamineBundle\\Annotations\\');
             $return_array = array();
             foreach ($reflection_class->getProperties() as $property) {
                 $is_id = false;

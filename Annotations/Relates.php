@@ -2,6 +2,10 @@
 
 namespace RedpillLinpro\GamineBundle\Annotations;
 
+/**
+ *
+ * @Annotation
+ */
 class Relates extends \Doctrine\Common\Annotations\Annotation
 {
     public $entity;

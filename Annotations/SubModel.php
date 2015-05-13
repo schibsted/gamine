@@ -2,6 +2,10 @@
 
 namespace RedpillLinpro\GamineBundle\Annotations;
 
+/**
+ *
+ * @Annotation
+ */
 class SubModel extends \Doctrine\Common\Annotations\Annotation
 {
     public $collection = false;

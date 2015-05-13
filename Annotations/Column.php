@@ -2,6 +2,10 @@
 
 namespace RedpillLinpro\GamineBundle\Annotations;
 
+/**
+ *
+ * @Annotation
+ */
 class Column extends \Doctrine\Common\Annotations\Annotation
 {
     public $name;
