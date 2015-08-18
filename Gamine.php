@@ -41,7 +41,7 @@ class Gamine
         return self::$_cache_directory;
     }
 
-    public function describeClass($class)
+    public static function describeClass($class)
     {
         $return_array = null;
         if (self::$_cache_directory) {
