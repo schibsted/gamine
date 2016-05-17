@@ -1,0 +1,7 @@
+{
+    "name": "redpilllinpro/gamine",
+    "description": "Symmfony bundle",
+    "type": "Symfony Bundle",
+    "require": {}
+    "target-dir": "RedpillLinpro/GamineBundle"
+}
