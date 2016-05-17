@@ -1,7 +1,6 @@
 {
-    "name": "redpilllinpro/gamine",
+    "name": "schibsted/gamine",
     "description": "Symmfony bundle",
     "type": "Symfony Bundle",
     "require": {}
-    "target-dir": "RedpillLinpro/GamineBundle"
 }
